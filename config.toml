@@ -2,3 +2,4 @@ baseURL = "https://www.kumbayops.com/"
 languageCode = "en-us"
 title = "KumbayOps LLC"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
