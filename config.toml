@@ -11,7 +11,7 @@ theme = "hallo"
 
 [params]
 
-    greeting = "Hello!"
+    greeting = "Hi!"
 
     [[params.links]]
         iconset = "fas"
