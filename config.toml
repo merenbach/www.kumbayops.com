@@ -5,27 +5,3 @@ title = "KumbayOps LLC"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 theme = "hallo"
-
-[Author]
-    name = "KumbayOps LLC"
-
-[params]
-
-    greeting = "Hi!"
-
-    [[params.links]]
-        iconset = "fas"
-        icon = "envelope"
-        title = "E-mail"
-        url = "mailto:andrew@kumbayops.com"
-
-    # [[params.links]]
-    #     icon = "github"
-    #     title = "Github"
-    #     url = "https://github.com/"
-
-    # [[params.links]]
-    #     icon = "twitter"
-    #     title = "Twitter"
-    #     url = "https://twitter.com/"
-      
