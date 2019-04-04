@@ -1,0 +1,22 @@
+body {
+    background-color: #c6cddb;
+
+    /* background-color: #39424E;
+    color: #c6cddb;
+    
+    background-color: #494f5c;
+    color: #c6cddb; */
+    
+    font-family: Arial, sans-serif;
+    padding: 1rem 2rem;
+
+    line-height: 1.5rem;
+}
+
+body > header {
+    text-align: center;
+}
+
+dt {
+    font-weight: bold;
+}

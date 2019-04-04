@@ -1,20 +1,20 @@
-{{ define "main" }}
+{{ define "title" }}
+{{ .Title }} | {{ .Site.Title }}
+{{ end }}
 
-<main>
-    <div class="column left">
-        <img src="img/logo.png" class="logo" alt="Logo">
-    </div>
-    <div class="column right">
-        <h1>Hi!</h1>
-        <h2>We are KumbayOps&#8480; LLC.</h2>
-        <p>{{- partial "introduction.html" . -}}</p>
+{{ define "main" }}
+<article>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{.Content}}
+    <section>
+        <h2>Services</h2>
+        <!-- Ranges through data/services.toml -->
         <dl>
             {{ range .Site.Data.services.all }}
             <dt>{{ .name }}</dt>
             <dd>{{ .desc | markdownify }}</dd>
             {{ end }}
         </dl>
-    </div>
-</main>
-
+    </section>
+</article>
 {{ end }}

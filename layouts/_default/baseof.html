@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+		<meta name="author" content="{{ .Site.Params.author }}">
+		<meta name="referrer" content="no-referrer">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{{ partial "style.html" }}
+	</head>
+	<body>
+		<header>
+            <h1><a href="{{ relURL .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+            <a href="{{ relURL .Site.BaseURL }}"><img src="img/logo.png" class="logo" alt="Logo"></a>
+			<!--<q class="tagline">{{ .Site.Params.slogan }}</q>-->
+			<!--<nav>
+				{{ range .Site.Menus.main }}
+				<a href="{{ .URL }}">{{ .Name }}</a>
+				{{ end }}
+			</nav>-->
+		</header>
+		<main>
+			{{ block "main" . }}{{ end }}
+		</main>
+		<footer>
+			<hr>
+			<small>Copyright &copy; {{ .Date.Format "2006" }} KumbayOps LLC. All rights reserved.</small>
+		</footer>
+	</body>
+</html>

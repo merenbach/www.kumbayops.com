@@ -4,4 +4,7 @@ languageCode = "en-us"
 title = "KumbayOps LLC"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
-theme = "hallo"
+
+[params]
+  author = "KumbayOps LLC"
+  #slogan = "Find Your Ops"
