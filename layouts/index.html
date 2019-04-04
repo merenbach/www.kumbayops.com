@@ -8,6 +8,12 @@
         <h1>Hi!</h1>
         <h2>We are KumbayOps&#8480; LLC.</h2>
         <p>{{- partial "introduction.html" . -}}</p>
+        <dl>
+            {{ range .Site.Data.services.all }}
+            <dt>{{ .name }}</dt>
+            <dd>{{ .desc | markdownify }}</dd>
+            {{ end }}
+        </dl>
     </div>
 </main>
 
