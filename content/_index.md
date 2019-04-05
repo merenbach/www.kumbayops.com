@@ -1,5 +1,5 @@
 +++
-title = "KumbayOps LLC"
+title = "Home"
 date = "2019-04-03"
 draft = false
 +++

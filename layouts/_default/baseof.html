@@ -22,9 +22,6 @@
 		<main>
 			{{ block "main" . }}{{ end }}
 		</main>
-		<footer>
-			<hr>
-			<small>Copyright &copy; {{ .Date.Format "2006" }} KumbayOps LLC. All rights reserved.</small>
-		</footer>
+		{{ partial "footer.html" }}
 	</body>
 </html>
