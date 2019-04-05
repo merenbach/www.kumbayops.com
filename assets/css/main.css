@@ -17,6 +17,11 @@ body > header {
     text-align: center;
 }
 
+body > header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 dt {
     font-weight: bold;
 }
