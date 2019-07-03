@@ -22,6 +22,10 @@ body > header {
     display: block;
 }
 
+.logo img {
+    border: solid white 4px;
+}
+
 body > header a {
     text-decoration: none;
     color: inherit;
