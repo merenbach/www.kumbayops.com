@@ -1,6 +1,6 @@
 body {
-    background-color: #c6cddb;
-
+    background-color: #c6cddb; /* eggplant #515171 */
+    /* color: #aeaaae; */
     /* background-color: #39424E;
     color: #c6cddb;
     
@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     padding: 1rem 2rem;
 
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }
 
 body > header {
@@ -23,7 +23,7 @@ body > header {
 }
 
 .logo img {
-    border: solid white 4px;
+    border: solid white /*#aeaaae*/ 3px;
 }
 
 body > header a {
